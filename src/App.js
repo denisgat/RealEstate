@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbarss from './Nav';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navbarss></Navbarss>
       <h1>Real Estate</h1>
     </div>
-  );
+  )
 }
 
 export default App;
