@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './Nav';
+import Header from './Header';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <h1>Real Estate</h1>
+      <Header/>
+      <h1 className='text-center'>Real Estate</h1>
     </div>
   )
 }
