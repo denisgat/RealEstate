@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbarss from './Nav';
+import Navbar from './Nav';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Navbarss></Navbarss>
+      <Navbar></Navbar>
       <h1>Real Estate</h1>
     </div>
   )
