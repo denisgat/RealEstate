@@ -2,8 +2,8 @@ import React from 'react';
 
 function Header() {
     return (
-        <div id='bgpic'>
-            <h1>Make Real Estate Easy</h1>
+        <div className='pt-3' id='bgpic'>
+            <h1>Real Estate Made Easy</h1>
         </div>
     )
 }
